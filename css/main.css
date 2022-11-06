@@ -85,6 +85,9 @@ nav a {
 }
 
 footer {
-    background-color: black;
+    background-color:gray;
     color: azure;
+}
+footer p {
+    padding-left: 2rem;
 }

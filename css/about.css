@@ -15,9 +15,10 @@ header .wrapper {
     background-color: aquamarine;
     padding: 1rem;
     text-align: center;
-    height: 150px;
-    
+    height: 150px;  
 }
+
+.logoimage:active { transform: translateX(75px); transition: 2s; }
 .logoimage {
     text-align: left;
 }

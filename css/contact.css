@@ -1,0 +1,106 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+  } 
+header li {
+    float: left;
+    height: 60px;
+    width: 100px; 
+    
+  } 
+header li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  } 
+header li a:hover {
+    background-color:royalblue;
+  }
+
+  header img {
+  
+    height: 60px;
+    float: left;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: aquamarine;
+  }
+  header ul {
+    display: flex;
+    justify-content: center;
+ 
+  }
+
+  
+  main {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  
+  form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+    text-transform: uppercase;
+    display: inline-block;
+    color: #09A38C;
+    border: .225rem solid #09A38C;
+    background-color: transparent;
+    border-radius: 5rem;
+    padding: .35em 2em .45em;
+    text-decoration: none;
+}
+form button:hover,
+form button:focus{
+    background-color:#09a38c ;
+    border-color: #09A38C;
+    color: #fff;
+}
+  footer {
+    background-color:gray;
+    color: azure;
+}
+footer p {
+    padding-left: 2rem;
+}
+  @media screen and (min-width: 960px) {
+    #main {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

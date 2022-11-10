@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/*animate to logo photo*/
 .logoimage:hover { transform: rotate(90deg); transition: 2.5s; }
 header ul {
    
@@ -100,6 +100,7 @@ form button:focus{
 footer p {
     padding-left: 2rem;
 }
+/*respond to 960px screen size*/
   @media screen and (min-width: 960px) {
     #main {
         display: flex;

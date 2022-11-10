@@ -17,7 +17,7 @@ header .wrapper {
     text-align: center;
     height: 150px;  
 }
-
+/*animate to logo photo*/
 .logoimage:active { transform: translateX(75px); transition: 2s; }
 .logoimage {
     text-align: left;
@@ -36,6 +36,8 @@ nav {
 nav a {
     flex: 1;
 }
+
+/*banner setting*/
 .banner {
     background-image: url(../images/about.jpg);
     background-repeat: no-repeat;
@@ -93,7 +95,7 @@ footer {
 footer p {
     padding-left: 2rem;
 }
-
+/*respond to 760px screen size*/
 @media screen and (min-width: 760px) {
     main {
         display: flex;

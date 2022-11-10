@@ -3,7 +3,7 @@
 *:after {
     box-sizing: border-box;
 }
-
+h1:hover { opacity: 0.3; transition: 0.5s; }
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,7 +52,8 @@ header li a:hover {
     justify-content: center;
  
   }
-
+ 
+  .fourshow:hover { transform: translateY(-20px); transition: 2s; }
   #lside img {
     height: 400px;
     width: 490px;

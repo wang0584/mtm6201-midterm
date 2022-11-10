@@ -36,7 +36,22 @@
                   <button type="submit">Send</button>
                 </form>
               </div>
-              <img src="images/contact1.jpg" class="banner">
+              <picture>
+                    <source srcset="images/contact480x480.jpg,
+                    images/contact960x960.jpg 2x,
+                    images/contact1440x1440.jpg 3x" media="(min-width:960px)">
+                    <source srcset="images/contact720.jpg,
+                    images/contact1440.jpg 2x,
+                    images/contact2160.jpg 3x" media="(min-width:720px)">
+                    <source srcset="images/contact480.jpg,
+                    images/contact960.jpg 2x,
+                    images/contact1440.jpg 3x" media="(min-width:320px)">
+                    <source srcset="images/contact320.jpg,
+                    images/contact640.jpg 2x,
+                    images/contact960.jpg 3x" media="(max-width:319px)">
+                <img src="images/contact1.jpg" alt="placeholder">
+              </picture>
+              
         </main>
         <footer>
             <p>&copy;Copayright Oneday Bakery, 2022</p>
